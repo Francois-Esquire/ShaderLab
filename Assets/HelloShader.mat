@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 9c8aded80613b4a7095e832d21ec3e54, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7dd7c3b4e0b8f482c81228bbb8c8805c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,6 +54,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: d803a32dfed6c4674865863cf28ac75a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -72,10 +80,13 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _rimPower: 1.18
+    - _rimThreshold: 0.36
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
+    - _Color: {r: 0.49115995, g: 0.42874134, b: 0.89705884, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _color: {r: 0.26601836, g: 0.13775954, b: 0.6691177, a: 1}
     - _emission: {r: 0.25640136, g: 0.24881053, b: 0.28676468, a: 1}
     - _normals: {r: 1, g: 1, b: 1, a: 1}
+    - _rimColor: {r: 0.73745674, g: 0.9117647, b: 0.82521176, a: 0}
